@@ -17,5 +17,10 @@ public class GitDemoApplication {
 	public String getMessage() {
 		return "This is First Git Demo API";
 	}
+	
+	@GetMapping(path = "/populate")
+	public String poupulateMessage() {
+		return "Pouplate message to user";
+	}
 
 }
