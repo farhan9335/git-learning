@@ -22,5 +22,10 @@ public class GitDemoApplication {
 	public String poupulateMessage() {
 		return "Pouplate message to user";
 	}
+	
+	@GetMapping(path = "/populate")
+	public String publishMessage() {
+		return "Pouplate message to user";
+	}
 
 }
